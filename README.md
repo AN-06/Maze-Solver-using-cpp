@@ -30,8 +30,7 @@ MazeSolver/
 │       ├── Dijkstra.h  
 │       ├── AStar.h  
 │       └── Path.h  
-├── LICENSE                        # Project license  
-├── To Do.md                       # Pending improvements and tasks  
+├── LICENSE                        # Project license   
 └── maze image.JPG                 # Sample maze image (optional)
 
 
