@@ -3,7 +3,7 @@
 A memory-efficient C++ Maze Solver implementing four pathfinding algorithms: **DFS**, **BFS**, **Dijkstra**, and **A\***.  
 The maze is built using graphs with minimal vertices for efficient traversal.
 
-## 📁 Project Structure
+## Project Structure 📁
 
 MazeSolver/  
 ├── example/                      # Example drivers and test cases  
