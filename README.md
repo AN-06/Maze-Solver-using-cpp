@@ -34,7 +34,6 @@ MazeSolver/
 ├── To Do.md
 └── maze image.JPG               # Sample image (not required to run)
 
-
 ## Features 🌟
 - Efficient graph-based maze structure (only important vertices are created)
 - Four pathfinding algorithms:
