@@ -3,6 +3,38 @@
 A memory-efficient C++ Maze Solver implementing four pathfinding algorithms: **DFS**, **BFS**, **Dijkstra**, and **A\***.  
 The maze is built using graphs with minimal vertices for efficient traversal.
 
+## Project Structure 📁
+
+MazeSolver/
+├── example/                      # Example drivers and test cases
+│   ├── driver.cpp                # Main example to run maze solver
+│   ├── animate.cpp              # Optional animation logic
+│   ├── MazePrint.h
+│   ├── MazeStringReader.h
+│   ├── test cases/              # Input maze files
+│   └── Modified Path/           # Alternate algorithm implementations
+│       ├── BreadthFirstSearch.h
+│       ├── DepthFirstSearch.h
+│       ├── Dijkstra.h
+│       ├── AStar.h
+│       ├── Path.h
+│       └── Modified_Path.h
+├── src/                         # Core source code
+│   ├── Maze.h
+│   ├── MazeSolver.h
+│   ├── IMazeReader.h
+│   ├── Vertex.h
+│   └── Path/
+│       ├── BreadthFirstSearch.h
+│       ├── DepthFirstSearch.h
+│       ├── Dijkstra.h
+│       ├── AStar.h
+│       └── Path.h
+├── LICENSE
+├── To Do.md
+└── maze image.JPG               # Sample image (not required to run)
+
+
 ## Features 🌟
 - Efficient graph-based maze structure (only important vertices are created)
 - Four pathfinding algorithms:
